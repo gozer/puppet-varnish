@@ -50,6 +50,7 @@ class varnish::vcl (
   $logrealip         = false,
   $cond_requests     = false,
   $https_redirect    = false,
+  $x_forwarded_proto = false,
 ) {
 
   include varnish
